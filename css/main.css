@@ -32,7 +32,7 @@ body {
     margin-right: 10px; */
 }
 
-/*BANNER SECTION*/
+/*BANNER  FIRST SECTION*/
 .banner {
     padding: 8rem ;
     background-color: #E9F4FF;
@@ -49,13 +49,13 @@ body {
     background-color: #4361EE;
     padding: 0.9rem 2.2rem;
     border-radius: 0.5rem;
+    cursor: pointer;
 }
 
 .btn {
     justify-content: space-between;
     align-items: center;
     color: white; 
-    cursor: pointer;
 }
 
 .bx-right-arrow-alt {
@@ -71,4 +71,33 @@ body {
     max-height: 500px;
 }
 
-/*SECTION 2*/
+/*SECOND SECTION*/
+.second-sec {
+    padding: 8rem ;
+    text-align: center;
+}
+.second-title {
+    font-size: 2rem;
+    font-weight: 600
+}
+
+.card-second {
+    display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  align-items: center;
+  text-align: left;
+}
+
+.float-left {
+    float: left;
+    padding-right: 10px;
+}
+
+ .second-description {
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 20px 400px;
+ 
+} 
+
