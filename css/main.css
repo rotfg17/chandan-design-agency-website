@@ -154,6 +154,7 @@ body {
   text-align: center;
   border-radius: 50%;
   padding: 15px 15px;
+  transition: background 0.2s ease-in-out;
 }
 
 .happy-section > article > div > span:first-of-type {
@@ -162,6 +163,13 @@ body {
 
 .happy-section > article > div > span:last-of-type {
   right: 20%;
+}
+
+.happy-section > article > div > span:first-of-type:hover,
+.happy-section > article > div > span:last-of-type:hover {
+  background-color: #4361ee;
+  color: white;
+  cursor: pointer;
 }
 
 .happy-section > h3 {
