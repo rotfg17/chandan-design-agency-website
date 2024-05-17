@@ -55,4 +55,23 @@
     padding-right: 0;
     width: 70%;
   }
+
+  /* third section */
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+  .services-img {
+    width: 170px;
+    height: 170px;
+  }
+
+  .text-overlay {
+    left: 40%;
+    text-align: left;
+    text-wrap: nowrap;
+    font-size: 0.85rem;
+  }
 }
