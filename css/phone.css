@@ -25,4 +25,34 @@
     left: 50%;
     transform: translate(-50%, 20%);
   }
+
+  /* Second Section */
+
+  .second-sec {
+    padding: 6rem 1rem;
+    text-align: center;
+  }
+
+  .second-description {
+    padding: 1rem 3rem;
+    line-height: 180%;
+  }
+
+  .card-second {
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+
+  .card-second .article-description {
+    padding: 1rem 3rem;
+    line-height: 180%;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .card-second .float-left {
+    float: none;
+    padding-right: 0;
+    width: 70%;
+  }
 }
