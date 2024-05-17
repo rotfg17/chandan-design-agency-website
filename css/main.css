@@ -100,6 +100,243 @@ body {
   padding: 20px 400px;
 }
 
+/*OUR SERVICES SECTION*/
+
+.services-container {
+  background-color: #e9f4ff;
+  padding: 5rem;
+}
+
+.services-title {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-item {
+  position: relative;
+}
+
+/* .text-overlay,
+.icon {
+    display: inline-block;
+} */
+
+/* .image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+}
+
+.services-img {
+    display: block;
+    width: 100%;
+    height: auto;
+    z-index: 0;
+} */
+
+.services-img {
+  width: 270px;
+  height: 320px;
+  filter: brightness(0.3);
+  /* margin: 10px;  */
+  border-radius: 10px 10px;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 90%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  padding-bottom: 30px;
+}
+
+.text-container {
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+/* fourth section happy client */
+
+.happy-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.happy-section > h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.happy-section > article {
+  width: 100%;
+  padding: 5rem 0;
+}
+
+.happy-section > article > div {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: #e9f4ff;
+  border-radius: 10px;
+}
+
+.happy-section > article div > img {
+  width: 200px;
+}
+
+.happy-section > article div > p {
+  margin-left: 40px;
+  font-size: 1rem;
+  line-height: 1.4rem;
+  font-weight: 200;
+  text-align: justify;
+  width: 400px;
+}
+
+.happy-section > article > div > span {
+  display: block;
+  position: absolute;
+  background-color: #e9f4ff;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  padding: 15px 15px;
+  transition: background 0.2s ease-in-out;
+}
+
+.happy-section > article > div > span:first-of-type {
+  left: 20%;
+}
+
+.happy-section > article > div > span:last-of-type {
+  right: 20%;
+}
+
+.happy-section > article > div > span:first-of-type:hover,
+.happy-section > article > div > span:last-of-type:hover {
+  background-color: #4361ee;
+  color: white;
+  cursor: pointer;
+}
+
+.happy-section > h3 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.happy-section-dots {
+  /* margin: 0 auto;
+  width: fit-content; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-top: 30px;
+}
+
+.happy-section-dots div {
+  background-color: black;
+  width: 3px;
+  height: 3px;
+  padding: 3px;
+  border-radius: 100%;
+}
+.happy-section-dots div:nth-child(2),
+.happy-section-dots div:nth-child(3) {
+  background-color: grey;
+}
+
+/* fifth section */
+
+.contact-section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  background-color: #e9f4ff;
+  padding: 20px;
+}
+
+.contact-section-address > section:not(:last-of-type) {
+  margin-bottom: 20px;
+}
+
+.contact-section-address > section div {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.contact-section-address > section img {
+  width: 30px;
+}
+
+.contact-section-address > section > p {
+  font-size: 0.85rem;
+  padding: 10px 0;
+}
+
+.contact-section-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-section-form form {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+  position: relative;
+  top: 25%;
+  width: 470px;
+}
+
+.contact-section-form label {
+  display: block;
+  padding: 15px 0;
+}
+
+.contact-section-form input {
+  padding: 10px;
+  width: 100%;
+  font-weight: 200;
+  border-radius: 5px;
+  border: 1px solid rgba(157, 156, 156, 0.5);
+}
+
+.contact-section-form button {
+  padding: 10px 40px;
+  color: white;
+  background-color: #4361ee;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
 /* Sixth section */
 
 .blog-section {
