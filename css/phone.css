@@ -140,4 +140,35 @@
     flex-direction: column;
     padding: 3rem 0;
   }
+
+  /* footer */
+
+  .footer-container {
+    align-items: normal;
+    padding: 4rem 1rem;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .footer-container .footer-logo-container {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .footer-container .footer-logo-container {
+    order: 1;
+  }
+
+  .footer-container .footer-contact {
+    order: 3;
+  }
+
+  .footer-container .footer-nav {
+    order: 4;
+  }
+
+  .footer-container .footer-form {
+    order: 2;
+  }
 }
