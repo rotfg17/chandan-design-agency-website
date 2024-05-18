@@ -36,6 +36,7 @@
   .second-description {
     padding: 1rem 3rem;
     line-height: 180%;
+    font-size: 18px;
   }
 
   .card-second {
@@ -46,7 +47,7 @@
   .card-second .article-description {
     padding: 1rem 3rem;
     line-height: 180%;
-    font-size: 1.2rem;
+    font-size: 18px;
     text-align: center;
   }
 
@@ -85,11 +86,17 @@
     width: 65dvw;
     flex-direction: column;
     padding: 6rem 1rem;
+    gap: 1rem;
   }
 
   .happy-section > article > div > span:last-of-type,
   .happy-section > article > div > span:first-of-type {
     display: none;
+  }
+
+  .happy-section > article div > img:last-child {
+    display: block;
+    width: 31px;
   }
 
   .happy-section > article div > p {

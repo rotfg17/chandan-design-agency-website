@@ -201,8 +201,13 @@ body {
   border-radius: 10px;
 }
 
-.happy-section > article div > img {
+.happy-section > article div > img:first-child {
   width: 200px;
+}
+
+.happy-section > article div > img:last-child {
+  display: none;
+  width: 31px;
 }
 
 .happy-section > article div > p {
