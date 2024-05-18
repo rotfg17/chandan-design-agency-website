@@ -74,4 +74,31 @@
     text-wrap: nowrap;
     font-size: 0.85rem;
   }
+
+  /* fourth section */
+
+  .happy-section {
+    padding: 4rem 1rem;
+  }
+
+  .happy-section > article > div {
+    width: 65dvw;
+    flex-direction: column;
+    padding: 6rem 1rem;
+  }
+
+  .happy-section > article > div > span:last-of-type,
+  .happy-section > article > div > span:first-of-type {
+    display: none;
+  }
+
+  .happy-section > article div > p {
+    font-size: 1rem;
+    line-height: 1.7rem;
+    font-weight: 200;
+    text-align: center;
+    margin-left: 0;
+    width: fit-content;
+    margin-top: 20px;
+  }
 }
