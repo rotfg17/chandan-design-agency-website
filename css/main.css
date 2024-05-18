@@ -283,14 +283,25 @@ body {
   margin-bottom: 20px;
 }
 
-.contact-section-address > section div {
+.contact-section-address > section {
   display: flex;
-  align-items: center;
+  gap: 20px;
+}
+
+.contact-section-address > section div:last-child {
+  display: flex;
+  align-items: flex-start;
   justify-content: start;
+  flex-direction: column;
+}
+
+.contact-section-address > section div:last-child p {
+  margin-bottom: 10px;
 }
 
 .contact-section-address > section img {
   width: 30px;
+  /* margin-right: 10px; */
 }
 
 .contact-section-address > section > p {
@@ -307,9 +318,9 @@ body {
   background-color: white;
   border-radius: 10px;
   padding: 20px;
-  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
   position: relative;
   top: 35px;
   width: 470px;
