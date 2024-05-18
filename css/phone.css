@@ -125,4 +125,19 @@
   .contact-section-address > section img {
     width: 30px;
   }
+
+  .contact-section-form form {
+    width: 90dvw;
+  }
+
+  /* sixth section */
+
+  .blog-section {
+    padding: 4rem 0;
+  }
+
+  .blog-section > article {
+    flex-direction: column;
+    padding: 3rem 0;
+  }
 }
