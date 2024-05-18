@@ -279,6 +279,13 @@ body {
   padding: 20px;
 }
 
+.contact-section > section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
 .contact-section-address > section:not(:last-of-type) {
   margin-bottom: 20px;
 }
